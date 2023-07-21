@@ -1,0 +1,240 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+/*frontpage content*/
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+
+}
+
+#upnavbar {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: +1;
+}
+
+.logo1 {
+    height: 25px;
+    padding: 25px;
+}
+
+.logo {
+    float: left;
+}
+
+#upnavbar li {
+    float: right;
+    text-decoration: none;
+    display: block;
+
+}
+
+li {
+    padding: 28px;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Frontpage content */
+
+
+#frontcontent {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 32%;
+    font-size: larger;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#Intro {
+    margin: 15px;
+    font-size: 70px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+
+/* Frontpage Button */
+
+
+button {
+    background-color: transparent;
+    border-radius: 35px;
+    color: rgb(35, 255, 35);
+    border: 2px solid rgb(35, 255, 35);
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: rgb(35, 255, 35);
+    color: white;
+    transition: .5s;
+}
+
+
+/* Second Page */
+
+
+#secondpage {
+    position: absolute;
+    top: 100%;
+    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?cs=srgb&dl=pexels-pixabay-235985.jpg&fm=jpg");
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    color: black;
+}
+
+#left {
+    float: left;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 35px;
+    color: black;
+    border-radius: 0% 10% 10% 0% / 10% 9% 10% 10% ;
+}
+
+#profile {
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    left: 10%;
+}
+
+#Intro li {
+    border-bottom: 2px white solid;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#right #introduction {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    border-radius: 20px;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 25px;
+}
+
+
+/* Third Page */
+
+
+#thirdpage {
+    position: absolute;
+    top: 200%;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg");
+
+    background-size: cover;
+}
+#contactheading h1{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+.Facebook,
+.Twitter,
+.Youtube,
+.Instagram {
+    position: relative;
+    margin-top: 250px;
+    margin-left: 90px;
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+    z-index: 1;
+}
+
+.Twitter {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.Youtube {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.brandlogo {
+    height: 75px;
+}
+
+.Facebook:hover,
+.Twitter:hover,
+.Youtube:hover,
+.Instagram:hover {
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    transition: .5s;
+    border-radius: 0 50%;
+    color: black;
+    
+}
+
+.Twitter:hover{
+    border-radius: 50% 50% 0 50%;
+}
+.Facebook:hover{
+    border-radius: 50% 50% 50% 0%;
+}
+.Youtube:hover{
+    border-radius: 50% 0 50% 50%;
+}
+.Instagram:hover{
+    border-radius: 0 50% 50% 50%;
+}
+.Instagram:hover 
+.items{
+    color: black;
+}
+.Twitter:hover .items{
+    color: black;
+}
+.Youtube:hover 
+.items{
+    color: black;
+}
+.Facebook:hover 
+.items{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
